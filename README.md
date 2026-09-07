@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/plin-code/job-boards-workable/main/art/banner.png" alt="Job Boards Workable">
+</p>
+
 # Job Boards Workable
 
 Workable connector for the [plin-code](https://github.com/plin-code) job boards family. It reads the public Workable job board widget, which needs no credentials and returns a whole board in one request:
