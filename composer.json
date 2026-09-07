@@ -24,7 +24,7 @@
         "php": "^8.3",
         "guzzlehttp/guzzle": "^7.8",
         "illuminate/contracts": "^12.0||^13.0",
-        "plin-code/job-boards-core": "*",
+        "plin-code/job-boards-core": "^0.2",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
         "psr/log": "^2.0||^3.0",

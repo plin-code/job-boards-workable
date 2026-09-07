@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 use PlinCode\JobBoards\Data\JobPostingDTO;
-use PlinCode\JobBoards\Workable\Tests\Support\FakePsrClient;
-use PlinCode\JobBoards\Workable\Tests\Support\RecordingLogger;
+use PlinCode\JobBoards\Testing\FakePsrClient;
+use PlinCode\JobBoards\Testing\RecordingLogger;
 use PlinCode\JobBoards\Workable\WorkableClient;
 
 function workableClient(FakePsrClient $fake, ?RecordingLogger $logger = null): WorkableClient
