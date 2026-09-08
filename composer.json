@@ -40,11 +40,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../job-boards-core",
-            "options": {
-                "symlink": true
-            }
+            "type": "vcs",
+            "url": "https://github.com/plin-code/job-boards-core.git"
         }
     ],
     "autoload": {
