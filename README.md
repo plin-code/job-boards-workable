@@ -104,21 +104,13 @@ PSR-18 has no notion of a timeout, so core's `HttpClient::withTimeout()` is only
 
 ## Depending on core
 
-During local development this package resolves core through a path repository:
-
-```json
-"repositories": [
-    { "type": "path", "url": "../job-boards-core", "options": { "symlink": true } }
-]
-```
-
-That block and the `"plin-code/job-boards-core": "*"` constraint are **for local development only**. Once core is published, drop the `repositories` block and pin the real constraint:
-
 ```json
 "require": {
-    "plin-code/job-boards-core": "^0.1"
+    "plin-code/job-boards-core": "^0.2||^0.3"
 }
 ```
+
+Core is on Packagist, so that constraint is all this package needs: there is no `repositories` block to carry. Do **not** commit a `path` repository pointing at a sibling checkout of core. It resolves against the layout of one machine, and the package then fails to install from a fresh clone anywhere else.
 
 ## Development
 
