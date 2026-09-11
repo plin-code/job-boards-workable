@@ -4,6 +4,13 @@
 
 # Job Boards Workable
 
+<p align="center">
+    <a href="https://packagist.org/packages/plin-code/job-boards-workable"><img src="https://img.shields.io/packagist/v/plin-code/job-boards-workable.svg?style=flat-square" alt="Packagist"></a>
+    <a href="https://packagist.org/packages/plin-code/job-boards-workable"><img src="https://img.shields.io/packagist/php-v/plin-code/job-boards-workable.svg?style=flat-square" alt="PHP from Packagist"></a>
+    <a href="https://packagist.org/packages/plin-code/job-boards-workable"><img src="https://badge.laravel.cloud/badge/plin-code/job-boards-workable?style=flat" alt="Laravel versions"></a>
+    <a href="https://packagist.org/packages/plin-code/job-boards-workable"><img src="https://img.shields.io/packagist/dt/plin-code/job-boards-workable.svg?style=flat-square" alt="Total Downloads"></a>
+</p>
+
 Workable connector for the [plin-code](https://github.com/plin-code) job boards family. It reads the public Workable job board widget, which needs no credentials and returns a whole board in one request:
 
 ```
